@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -30,5 +30,11 @@ S 4500 5500 1000 1000
 U 5E1CA0FC
 F0 "Stepper drivers" 50
 F1 "StepperDrivers.sch" 50
+$EndSheet
+$Sheet
+S 3000 5500 1000 1000
+U 5E280739
+F0 "Spindle driver" 50
+F1 "SpindleDriver.sch" 50
 $EndSheet
 $EndSCHEMATC
