@@ -782,4 +782,30 @@ F 3 "~" H 6450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6550 3450
+$Comp
+L Regulator_Switching:MC33063AD U?
+U 1 1 5E32E92F
+P 2950 6450
+F 0 "U?" H 2950 6917 50  0000 C CNN
+F 1 "MC33063AD" H 2950 6826 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3000 6000 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 3450 6350 50  0001 C CNN
+	1    2950 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR?
+U 1 1 5E32F396
+P 2200 6000
+F 0 "#PWR?" H 2200 5900 50  0001 C CNN
+F 1 "+VDC" H 2200 6275 50  0000 C CNN
+F 2 "" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6000 2200 6250
+Wire Wire Line
+	2200 6250 2550 6250
 $EndSCHEMATC
