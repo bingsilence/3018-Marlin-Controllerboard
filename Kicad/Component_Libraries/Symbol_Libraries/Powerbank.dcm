@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ4050RSMR
+F http://www.ti.com/lit/gpn/bq4050
+$ENDCMP
+#
+$CMP LM5155
+D Boost converter with external mosfet
+F http://www.ti.com/lit/ds/symlink/lm5155.pdf
+$ENDCMP
+#
+#End Doc Library
